@@ -1,0 +1,53 @@
+body {background-color: aquamarine;}
+
+.fondo {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+.head {
+    background-color: purple;
+    width: 95%;
+    height: 22.5%;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+}
+.body {
+    background-color: green;
+    width: 95%;
+    height: 45%;
+    position: absolute;
+    top: 27.5%;
+    left: 2.5%;
+}
+#cuadrado1 {
+    background-color: greenyellow;
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 2;
+}
+#cuadrado2 {
+    border: 1px solid aqua;
+    background-color: blue;
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    left: 12.5%;
+    z-index: 3
+}
+.foot {
+    background-color: purple;
+    width: 95%;
+    height: 22.5%;
+    position: absolute;
+    top: 75%;
+    left: 2.5%;
+}

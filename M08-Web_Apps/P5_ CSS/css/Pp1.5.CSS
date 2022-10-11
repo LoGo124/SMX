@@ -1,0 +1,48 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+   }
+
+tr:first-of-type th:first-letter {
+    text-align: center;
+    font-size: 2em;
+    font-family: serif;
+   }
+
+tr:nth-child(3) th:nth-child(2) {
+    background: yellow;
+}
+
+table tr td:nth-child(1) {
+    background: green;
+}
+
+tr th:nth-child(6) hover {
+    font-size: 300%;
+}
+
+tr td:last-of-type:hover {
+    font-size: 200%;
+}
+
+tr:nth-child(3) th:nth-child(2):hover {
+    font-size: 200%;
+}
+
+tr:nth-last-child(1) th:last-of-type:hover {
+    font-size: 200%;
+}
+
+label::after {
+    color: red;
+    content: "*";  
+}
+
+input:required {
+    text-align: center;
+    padding: 10px;
+    border-width: thin;
+    border-color: red;
+}

@@ -1,0 +1,95 @@
+body {background-color: aquamarine;}
+
+.fondo {
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+}
+.head {
+    background-color: purple;
+    width: 95%;
+    height: 22.5%;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+}
+.body {
+    background-color: green;
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    top: 27.5%;
+    left: 2.5%;
+}
+#side1 {
+    background-color: pink;
+    width: 17.5%;
+    height: 70%;
+    position: absolute;
+    top: 27.5%;
+    left: 40%;
+}
+#side2 {
+    background-color: pink;
+    width: 17.5%;
+    height: 70%;
+    position: absolute;
+    top: 27.5%;
+    left: 60%;
+}
+#side3 {
+    background-color: pink;
+    width: 17.5%;
+    height: 70%;
+    position: absolute;
+    top: 27.5%;
+    left: 80%;
+}
+#cuadrado1 {
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 5%;
+    left: 10%
+}
+#cuadrado2 {
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 22.5%;
+    left: 10%
+}
+#cuadrado3 {
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 40%;
+    left: 10%
+}
+#cuadrado4 {
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 57.5%;
+    left: 10%
+}
+#cuadrado5 {
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 80%;
+    height: 15%;
+    position: absolute;
+    top: 75%;
+    left: 10%
+}

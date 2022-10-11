@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/css6.css" type="text/css" rel="stylesheet">
+        <title>AH-Mapa</title>
+    </head>
+    <body>
+        <header class="h">
+            <h1>Mapa</h1>
+        </header>
+        <aside class="a">
+            <nav>
+                <div>
+                    <a href="1-Inicio.html"><p class="MenuP">Inicio</p></a>
+                </div>
+                <div>
+                    <a href="2-Comoempezar.html"><p class="MenuP">Como empezar</p></a>
+                </div>
+                <div>
+                    <a href="3-Personajes.html"><p class="MenuP">Personajes</p></a>
+                </div>
+                <div>
+                    <a href="4-Armas.html"><p class="MenuP">Armas</p></a>
+                </div>
+                <div>
+                    <a href="5-Objetos.html"><p class="MenuP">Objetos</p></a>
+                </div>
+                <div>
+                    <a href="6-Mapa.html"><p class="MenuP">Mapa</p></a>
+                </div>
+                <div>
+                    <a href="7-Skins.html"><p class="MenuP">Skins</p></a>
+                </div>
+                <div>
+                    <a href="8-Formulario.html"><p class="MenuP">Formulario</p></a>
+                </div>
+            </nav>
+        </aside>
+        <main class="m">
+            <div class="img">
+                <img src="Imagenes/Mapa.png" height="auto" width="auto">
+            </div>   
+            <div class="canvas">
+                <canvas id="micanvas" style="width : 50% ; height : 50% ; border : 1px black solid ;">
+                </canvas>
+                    <script> 
+                        var context = document.querySelector("#micanvas").getContext('2d');
+                        context.beginPath();
+                        context.fillStyle = "purple";
+                        context.strokeStyle="black";
+                        context.arc(50, 50, 25, 0, 2 * Math.PI, false);
+                        context.fill();
+                        context.stroke();
+                        context.closePath();
+                    </script> 
+            </div>  
+            <p class="letra">Los círculos de color lila hacen referencia a zonas con mejor loot comparado con los círculos de color naranja.</p>  
+            <br></br>
+            <br></br>       
+        </main>
+        <footer class="f">
+            <div>
+                <p class="FCreador">Esta pagina ha sido creada por Aleix con ayuda de Nacho y Adam.</p>
+            </div>
+            <div>
+                <p class="FContact">Contact mail: i.lopez4@sapalomera.cat, a.boada@sapalomera.cat o a.el5@sapalomera.cat</p>
+            </div>
+        </footer>
+    </body>
+</html>

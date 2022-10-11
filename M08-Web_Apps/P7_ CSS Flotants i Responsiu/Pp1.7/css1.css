@@ -1,0 +1,61 @@
+#title {
+    text-align: center
+}
+.Nav {
+    background-color: black;
+    overflow: hidden
+}
+.NaDiv {
+    color: white;
+    float: left;
+    width: 16.5%;
+    padding: 10px
+}
+.FakeNa {
+    background-color: black;
+    width: 15%;
+    height: 550px;
+    margin-right: 15px;
+    display: block;
+    float: left;
+    position: relative;
+    top: 15px;
+}
+.FakeNaDi {
+    color: white;
+    display: block;
+    padding: 20px
+}
+.Box{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    float: left;
+    display: inline-block;
+    border: solid;
+    border-radius: 20px;
+    width: 25%;
+    height: auto;
+}
+.Logo{
+    width: 100%;
+    height: auto;
+}
+.SubBox{
+    display: block;
+    float: left;
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+.Foot {
+    background-color: darkgray;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 20%;
+}
+.video {
+    height: 20px;
+    width: auto;
+}

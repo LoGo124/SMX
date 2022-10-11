@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Disseny Responsiu</title>
+
+    <link rel="stylesheet" type="text/css" href="________________" />
+
+    <!-- per afegir tipus de lletra...
+    https://fonts.google.com/specimen/Righteous?selection.family=Righteous
+  -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet" />
+
+
+    <!-- Per carregar el símbol que mostra  el menú -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .container {
+            font-family: "Righteous", cursive;
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        .menu_item {
+            padding: 0.5em;
+            display: none;
+        }
+
+        /* hi haurà un moment en que haurem de fer servir
+         .icon {
+            display: none;
+        }
+*/
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Responsiu</h1>
+            <nav>
+                <div class="icon"><i class="fa fa-bars"></i></div>
+                <div class="menu_item">INICI</div>
+                <div class="menu_item">PERSONATGES</div>
+                <div class="menu_item">CREADOR</div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h3>PERSONATGES DELS VIDEOJOCS</h3>
+                    <h1>DISSENY RESPONSIU</h1>
+                </div>
+                <div>
+                    <p>
+                        Phasellus sit amet
+                        massa convallis, facilisis felis eget, imperdiet ex. Nullam hendrerit varius libero, in porttitor sapien
+                        semper vel. Praesent auctor lacus nec blandit tincidunt. Cras ac tempor leo.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo et felis non mattis. In hac
+                        habitasse platea dictumst. Quisque pretium augue nisl, nec vulputate magna luctus eu. Phasellus sit amet
+                        massa convallis, facilisis felis eget, imperdiet ex. Nullam hendrerit varius libero, in porttitor sapien
+                        semper vel. Praesent auctor lacus nec blandit tincidunt. Cras ac tempor leo.
+                    </p>
+                    <p>Phasellus sit amet
+                        massa convallis, facilisis felis eget, imperdiet ex. Nullam hendrerit varius libero, in porttitor sapien
+                        semper vel. Praesent auctor lacus nec blandit tincidunt. Cras ac tempor leo.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <img src="_____________" /> <img src="_____________" />
+                <img src="_____________" /> <img src="_____________" />
+                <img src="_____________" /> <img src="_____________" />
+                <img src="_____________" /> <img src="_____________" />
+                <img src="_____________" />
+            </section>
+        </main>
+        <section>
+            <h2>NOVETATS</h2>
+            <article>
+                <h4>15 de novembre</h4>
+                    <h3>Novetat 1</h3>
+                    <p>
+                        Accusantium consectetur, numquam ratione sed ut ipsa earum
+                        consequatur sunt quae officiis facere tempora nobis pariatur
+                        quibusdam non, cum harum. Expedita, doloribus!
+                    </p>
+            </article>
+            <article>
+                <h4>30 de novembre</h4>
+                    <h3>Novetat 2</h3>
+                    <p>
+                        Accusantium consectetur, numquam ratione sed ut ipsa earum
+                        consequatur sunt quae officiis facere tempora nobis pariatur
+                        quibusdam non, cum harum. Expedita, doloribus!
+                    </p>
+            </article>
+            <article>
+                <h4>6 de desembre</h4>
+                <h3>Novetat 3</h3>
+                <p>
+                    Accusantium consectetur, numquam ratione sed ut ipsa earum
+                    consequatur sunt quae officiis facere tempora nobis pariatur
+                    quibusdam non, cum harum. Expedita, doloribus!
+                </p>
+            </article>
+        </section>
+    </div>
+    <script>
+        //Funció encarregada de mostrar el menú
+        $(function() {
+            //Captura del event par mostrar o ocultar
+            $(".icon").click(function() {
+                $(".menu_item").toggle();
+            });
+            $(window).resize(function() {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".menu_item").show();
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

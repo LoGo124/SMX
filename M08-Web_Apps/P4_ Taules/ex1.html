@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercici 1</title>
+        <meta charset="UTF8">
+        <style>
+            ul, li{text-align: left}
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 5px;
+                text-align: center;
+            }
+            #FAzul {background-color:#1111d1}
+            #FRojo {
+                background-color:#d11111;
+                color:#ffffff;
+            }
+            #FGris {background-color:#777777;
+            font-size: 30;
+            padding: 20px
+            }
+            #FAmarillo {background-color:#fff500;
+            padding: 50px}
+            #LRoja {color: #ff0000}
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <caption>Ejercici pràctic amb Taules més SELECTRORS</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="FAzul" colspan="3"><img src="SL1500.jpg" width="120" height="100"></th>
+                    <th id="FAzul" colspan="2"><img src="SL1700.jpg" width="100" height="100"></th>
+                </tr>
+            </thead>
+            <tbody center="3">
+                <tr>
+                    <th id="FRojo"> Capacitat</th>
+                    <td id="FGris"> 2GiB</td>
+                    <td id="FGris"> 4GiB</td>
+                    <td id="FGris"> 8GiB</td>
+                    <td id="FGris"> 32GiB</td>
+                    <td id="FGris"> 2GiB</td>
+                </tr>
+                <tr>
+                    <th id="FRojo"> Color</th>
+                    <th> Blanco </th>
+                    <td>
+                        <ul id="LRoja">
+                            <li>Negre</li>
+                            <li>Rosa</li>
+                            <li>Daurat</li>
+                        </ul>
+                    </td>
+                    <th>Negre</th>
+                    <td id="FAzul" colspan="2">
+                        <ul id="LRoja">
+                            <li>Negre</li>
+                            <li>Blanc</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th id="FRojo"><b>Carcassa</b></th>
+                    <th id="FAzul" colspan="3"> 3 polzades</th>
+                    <th id="FAzul" colspan="2"> 7 polzades</th>
+                </tr>
+                <tr>
+                    <th id="FRojo" rowspan="2"> Temps de Carrega</th>
+                    <th id="FAzul" rowspan="2" colspan="3"> 1 hora</th>
+                    <th id="FAmarillo" colspan="2"> 5 hores </th>
+                <tr>
+                    <th id="FAzul" colspan="2"> 30 minuts per 75%</th>    
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

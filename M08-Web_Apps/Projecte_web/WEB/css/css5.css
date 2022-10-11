@@ -1,0 +1,177 @@
+body {
+    background-image: url(../Imagenes/FondoInicio.jpg);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+}
+a:link,a:active,a:visited {
+        color: black;
+        text-decoration: none;
+}
+h1 {
+    float: none;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    border: solid 2px black;
+    background-color: gray;
+    margin: 20px;
+}
+a:hover {
+    color: red;
+}
+ImgObj{
+    align-self: center
+}
+.inli{
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 630px) {
+    .h{
+        position: fixed;
+        width: 100%;
+        height: 15%;
+        top: 0%;
+        left: 0%;
+        z-index: 2;
+        background-image: url(../Imagenes/header.png);
+        background-position: center;
+        background-size: cover
+}
+    .a{
+        background-color: darkgray;
+        position: fixed;
+        width: 25%;
+        height: 82.5%;
+        top: 15%;
+        left: 0%;
+}
+    .m{
+        position: absolute;
+        width: 75%;
+        height: auto;
+        top: 15%;
+        left: 25%;
+}
+    .f{
+        background-color: gray;
+        position: fixed;
+        width: 100%;
+        height: 10%;
+        top: 90%;
+        left: 0%;
+}
+    .MenuP{
+        text-decoration-color: white;
+        text-align: center;
+        border-color: white;
+        border: solid 2px;
+        padding: 5px;
+        margin: 5%;
+    }
+    .FCreador{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 5px;
+    }
+    .FContact{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 52.5%;
+        margin-top: 5px;
+        padding: 0px
+    }
+    .DivObjeto {
+        background-color: darkred;
+        width: 75%;
+        height: auto;
+        position: static;
+        border: solid 2px;
+        border-color: black;
+        border-radius: 5px;
+        margin: 10%;
+        margin-top: 0px;
+    }
+    .PObjeto {
+        float: left;
+    }
+}
+@media screen and (min-width: 631px) {
+     .h{
+        position: fixed;
+        width: 100%;
+        height: 15%;
+        top: 0%;
+        left: 0%;
+        z-index: 2;
+        background-image: url(../Imagenes/header.png);
+        background-position: center;
+        background-size: cover
+}
+    .a{
+        background-color: darkgray;
+        position: fixed;
+        width: 15%;
+        height: 75%;
+        top: 15%;
+        left: 0%;
+}
+    .m{
+        position: absolute;
+        width: 85%;
+        height: 75%;
+        top: 15%;
+        left: 15%;
+}
+    .f{
+        background-color: gray;
+        position: fixed;
+        width: 100%;
+        height: 10%;
+        top: 90%;
+        left: 0%;
+}
+    .MenuP{
+        text-decoration-color: white;
+        text-align: center;
+        border-color: white;
+        border: solid 2px;
+        padding: 5px;
+        margin: 5%;
+    }
+    .FCreador{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 5px;
+        padding-top: 0px;
+    }
+    .FContact{
+        width: 45%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 52.5%;
+        margin-top: 5px;
+        padding-top: 0px
+    }
+    .DivObjeto {
+        background-color: darkred;
+        width: 97%;
+        height: auto;
+        position: static;
+        border: solid 2px;
+        border-color: black;
+        border-radius: 5px;
+        margin: 20px;
+    }
+}

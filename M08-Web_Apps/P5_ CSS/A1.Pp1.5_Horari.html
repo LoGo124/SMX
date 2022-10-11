@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/Pp1.5CSS">
+    <title>Llistes en HTML</title>    
+</head>
+
+<body>
+   
+   
+    <table>
+        <caption>HORARI DE CLASSE CURS 2019-2020</caption>
+        <thead>
+            <tr>
+                <th>HORES</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00</td>
+                <td rowspan="2">Matemàtiques</td>
+                <td>Llengua</td>
+                <td>Anglès</td>
+                <td colspan="2">Ciencies</td>
+            </tr>
+            <tr>
+                <td>9:00</td>
+                <td>Història</td>
+                <td>Ciencies</td>
+                <td>Matemàtiques</td>
+                <td>Llengua</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <th colspan="5">PATI</th>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td>Anglès</td>
+                <td rowspan="2">Ciencies</td>
+                <td>Matemàtiques</td>
+                <td>Llengua</td>
+                <td>Història</td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td>Història</td>
+                <td>Ciencies</td>
+                <td>Matemàtiques</td>
+                <td>Anglès</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <p>
+            <label for="destí">Email</label>
+            <input type="email" name="desti" placeholder="Inserti email del destinari" required />
+        </p>
+        <input type="button" value="Enviar Horari" />
+    </form>
+  
+</body>
+
+</html>
